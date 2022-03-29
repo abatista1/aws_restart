@@ -1,0 +1,22 @@
+2022-03-28 11:11:45,935 : ERROR : __main__ : Cannot divide by 0 - b = 0
+Traceback (most recent call last):
+  File "D:\GitHub\Restart\week05\day5\debug.py", line 63, in show
+    print(div(a,b))
+  File "D:\GitHub\Restart\week05\day5\debug.py", line 24, in div
+    return a/b
+ZeroDivisionError: division by zero
+2022-03-28 11:12:40,719 : ERROR : __main__ : ValueError: fdfgd should be an integer
+2022-03-28 11:12:40,720 : ERROR : __main__ : Unsupported operand type(s) for + 
+Traceback (most recent call last):
+  File "D:\GitHub\Restart\week05\day5\debug.py", line 58, in show
+    print(add(a,b))
+  File "D:\GitHub\Restart\week05\day5\debug.py", line 21, in add
+    return a+b
+TypeError: can only concatenate str (not "int") to str
+2022-03-28 11:12:41,028 : ERROR : __main__ : Unsupported operand type(s) for / 
+Traceback (most recent call last):
+  File "D:\GitHub\Restart\week05\day5\debug.py", line 63, in show
+    print(div(a,b))
+  File "D:\GitHub\Restart\week05\day5\debug.py", line 24, in div
+    return a/b
+TypeError: unsupported operand type(s) for /: 'str' and 'int'
